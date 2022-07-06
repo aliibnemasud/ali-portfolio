@@ -11,7 +11,7 @@ const Portfolio = () => {
                 <p className='text-center mb-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem commodi, et incidunt mollitia harum eius quia blanditiis! Esse, unde vero!</p>
 
                 <div className='row'>
-
+                    
                     <div className='project-card col-lg-4 col-md-6 col-12 my-3'>
                         <div className='p-4 bg-light'>
                             <div className=''>

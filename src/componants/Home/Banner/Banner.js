@@ -7,7 +7,6 @@ const Banner = () => {
     return (
         <div>
             <section className='banner pt-5'>
-
                 <div className="container d-flex flex-wrap justify-content-between align-items-center position-relative">
                     <div className='col-lg-6 col-md-6 col-12'>
                         <h6>--Hello</h6>

@@ -1,0 +1,11 @@
+.expertise-area {
+ background: url(../../img/banner-bg.jpg);
+ background-size: cover;
+}
+
+
+.owncard {
+    background-color: aliceblue;    
+    height: 400px;
+    width: 400px;
+}

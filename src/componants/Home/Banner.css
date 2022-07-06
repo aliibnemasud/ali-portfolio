@@ -1,4 +1,14 @@
 .banner {
     background: url(../img/banner-bg.jpg);
-    
+    background-size: cover;        
+}
+
+.social-icon {
+    width: 100px;
+    margin-left: -25px;
+}
+
+.social-icon li {
+    text-decoration: none;
+    list-style: none;
 }

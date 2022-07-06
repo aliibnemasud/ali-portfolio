@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
 import './Banner.css';
-import ali from '../img/ali.png';
+import ali from '../../img/ali.png';
 
 const Banner = () => {
     return (

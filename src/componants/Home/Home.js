@@ -1,7 +1,8 @@
 import React from 'react';
 import Header from '../Shared/Header';
 import AboutMe from './AboutMe/AboutMe';
-import Banner from './Banner';
+import Banner from './Banner/Banner';
+
 import ExpertiseArea from './ExpertiseArea/ExpertiseArea';
 import Portfolio from './Portfolio/Portfolio';
 

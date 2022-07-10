@@ -1,5 +1,20 @@
+.contact-form {
+    padding: 5%;    
+}
+
+
 .contact-form input {    
     border: none;
-    border-bottom: 1px solid;
+    border-bottom: 1px solid;   
+    display: block;
+    margin: 20px auto;
+    background-color: transparent;   
+}
 
+.contact-form textarea {    
+    border: none;
+    border-bottom: 1px solid;    
+    display: block;
+    margin: 20px auto;
+    background-color: transparent;    
 }

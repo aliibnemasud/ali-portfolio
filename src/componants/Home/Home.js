@@ -1,4 +1,6 @@
 import React from 'react';
+import CopyRight from '../Footer/CopyRight';
+import Footer from '../Footer/Footer';
 import Header from '../Shared/Header';
 import AboutMe from './AboutMe/AboutMe';
 import Banner from './Banner/Banner';
@@ -20,7 +22,9 @@ const Home = () => {
             <Portfolio></Portfolio>
             <Testimonial></Testimonial>
             <SayHello></SayHello>
-            <ContactMe></ContactMe>           
+            <ContactMe></ContactMe>
+            <Footer></Footer>
+            <CopyRight></CopyRight>        
         </div>
     );
 };

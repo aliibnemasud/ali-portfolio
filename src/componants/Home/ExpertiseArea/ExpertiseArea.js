@@ -4,7 +4,7 @@ import firebasepng from '../../img/skills/firebase.png';
 
 const ExpertiseArea = () => {
     return (
-        <section className='my-5 py-5 expertise-area'>
+        <section id='expertise' className='my-5 py-5 expertise-area'>
             <div className='container'>
                 <h1 className='text-center my-3'>Expertise Area</h1>
                 <p className='text-center mb-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem commodi, et incidunt mollitia harum eius quia blanditiis! Esse, unde vero!</p>

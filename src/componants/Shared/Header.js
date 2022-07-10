@@ -12,8 +12,7 @@ const Header = () => {
                     <Navbar.Brand href="#home">Ali Ibne Masud</Navbar.Brand>
 
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                    <Navbar.Collapse id="responsive-navbar-nav">
-                        
+                    <Navbar.Collapse id="responsive-navbar-nav">                        
                         <Nav className='ms-auto'>
                             <Nav.Link className='fw-bold text-uppercase' href="#deets">Home</Nav.Link>
                             <Nav.Link className='fw-bold text-uppercase' eventKey={2} href="#aboutme">About Me</Nav.Link>                           

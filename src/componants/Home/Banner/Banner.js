@@ -12,7 +12,7 @@ const Banner = () => {
                         <h6>Hello</h6>
                         <h1 className='text-uppercase fw-bold'>I am Ali Ibne Masud</h1>
                         <p className='my-4'>This is Ali Ibne Masud a full stack web developer (MERN) and UI/UX Designer located in Bangladesh. Looking for working aroud the world.</p>
-                        <Button variant='danger' >Download CV</Button>
+                        <a className='btn btn-danger' target="_blank" href="https://drive.google.com/file/d/13KeU7C4ICvbAjc-PizE_hapdhUmbAz6O/view?usp=sharing">Download CV</a>
                         <ul className='social-icon d-flex justify-content-between position-absolute bottom-0 start-0'>
                             <li>
                                 <a href="https://github.com/aliibnemasud" target="_blank"><i class="fa-brands fa-github"></i></a>

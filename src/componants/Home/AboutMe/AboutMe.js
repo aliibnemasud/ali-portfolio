@@ -29,8 +29,8 @@ const AboutMe = () => {
                 
                 <p className='mb-5'>Thank you for the time to read this. I look forward to speaking with you if you have any opportunity for me. Feel free to ask me any questions. I am always here to respond. Thank you!
                 </p>
-
-                <Button variant='danger' >Download CV</Button>
+                
+                <a className='btn btn-danger' target="_blank" href="https://drive.google.com/file/d/13KeU7C4ICvbAjc-PizE_hapdhUmbAz6O/view?usp=sharing">Download CV</a>
 
                 <h1 className='mt-5'>Skills</h1>
                 <p className='fw-bold'>HTML, CSS, Bootstrap, Tailwind, JavaScript, ES6, React, React Router, Firebase, Express Js, Node, MongoDB, JWT, Heroku, Git, Netlify</p>

@@ -12,3 +12,9 @@
     text-decoration: none;
     list-style: none;
 }
+
+.hline {    
+    border-bottom: 2px solid #dc3545;
+    width: 8%;
+    margin-right: 10px;
+}

@@ -1,12 +1,13 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
+import './Sayhello.css';
 
 const SayHello = () => {
     return (
         <section className='my-5 py-5'>
             <h3 className='text-center'>Have any project in mind?</h3>
-            <h1 className='text-center'>Just Say Hello</h1>
-            <Button className='d-block mx-auto' variant="danger" >Hire Me</Button>
+            <h1 className='text-center my-5'>Just Say Hello</h1>
+            <button className='hireme'>Hire Me</button>            
         </section>
     );
 };

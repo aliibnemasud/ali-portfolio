@@ -1,11 +1,13 @@
 .contact-form {
-    padding: 5%;    
+    padding: 15% 10%;
+    background-color: white;        
 }
 
 
 .contact-form input {    
     border: none;
-    border-bottom: 1px solid;   
+    border-bottom: 1px solid;
+    border-radius: 0;   
     display: block;
     margin: 20px auto;
     background-color: transparent;   
@@ -16,5 +18,17 @@
     border-bottom: 1px solid;    
     display: block;
     margin: 20px auto;
+    border-radius: 0;
     background-color: transparent;    
 }
+
+.forma {
+    margin-bottom: -180px;
+}
+
+@media (max-width: 992px) { 
+    
+    .forma {
+        margin-bottom: 0px;
+    }
+ }

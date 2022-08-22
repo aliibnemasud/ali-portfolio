@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button } from 'react-bootstrap';
+import PrimaryBtn from '../../Shared/PrimaryBtn';
 import './Sayhello.css';
 
 const SayHello = () => {
@@ -7,7 +7,8 @@ const SayHello = () => {
         <section className='my-5 py-5'>
             <h3 className='text-center'>Have any project in mind?</h3>
             <h1 className='text-center my-5'>Just Say Hello</h1>
-            <button className='hireme'>Hire Me</button>            
+            {/* <button  className='hireme'></button> */}
+            <PrimaryBtn>Hire Me</PrimaryBtn>           
         </section>
     );
 };

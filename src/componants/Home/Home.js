@@ -3,6 +3,7 @@ import CopyRight from '../Footer/CopyRight';
 import Footer from '../Footer/Footer';
 import Header from '../Shared/Header';
 import Skills from '../Skills/Skills';
+
 import AboutMe from './AboutMe/AboutMe';
 import Banner from './Banner/Banner';
 import ContactMe from './ContactMe/ContactMe';
@@ -15,11 +16,10 @@ import Testimonial from './Testimonial/Testimonial';
 const Home = () => {
 
     return (
-        <div>
-            <Header></Header>
+        <div>            
             <Banner></Banner>
             <AboutMe></AboutMe>
-            <Skills/>
+            <Skills></Skills>
             <ExpertiseArea></ExpertiseArea>
             <Portfolio></Portfolio>
             <Testimonial></Testimonial>

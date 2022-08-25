@@ -6,7 +6,7 @@ import rreact from '../../img/projectsimg/react.png';
 
 const ExpertiseArea = () => {
     return (
-        <section id='expertise' className='my-5 py-5 expertise-area'>
+        <section id='expertise' className=' py-5 expertise-area'>
             <div className='container'>
                 <h1 className='text-center my-3'>Expertise Area</h1>
                 <p className='text-center mb-5'>Some of my expertise area in bellow.</p>

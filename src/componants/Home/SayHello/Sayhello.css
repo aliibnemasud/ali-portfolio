@@ -7,3 +7,9 @@
     display: block;
     margin: 0 auto;
 }
+
+.sayhello {
+    font-size: 60px;
+    margin: 30px 0;
+    font-weight: 300;
+}

@@ -6,7 +6,7 @@ import './Anoutme.css';
 
 const AboutMe = () => {
     return (
-        <div className='container d-flex flex-wrap justify-content-between align-items-center aboutMePadding'>
+        <div  id='aboutme' className='container d-flex flex-wrap justify-content-between align-items-center aboutMePadding'>
             <img className='img-fluid col-lg-5' src={Aboutme} alt="" />
             <div className='col-lg-6'>
                 <h1>About Me</h1>

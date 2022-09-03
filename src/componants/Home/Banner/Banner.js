@@ -9,7 +9,7 @@ const Banner = () => {
    
 
     return (
-        <div id='banner' >
+        <div id='home' >
 
             <section className='banner'>
                 <Header></Header>
@@ -20,7 +20,7 @@ const Banner = () => {
                             <h5 className='my-3'>Hello</h5>
                         </div>
                         <h1 className='text-uppercase fw-bold'>I am <span className='text-danger'>Ali</span> Ibne Masud</h1>
-                        <p className='my-4'>This is Ali Ibne Masud a full stack web developer (MERN) and UI/UX Designer located in Bangladesh. Looking for working aroud the world.</p>
+                        <p className='my-4'>This is Ali Ibne Masud a <span className='fw-bold'>JR. Mern Stack Developer</span> and UI/UX Designer located in Bangladesh. Looking for working aroud the world.</p>
                         
                        <Downloadcv/>
 

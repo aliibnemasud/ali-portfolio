@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
+import PrimaryBtn from '../../Shared/PrimaryBtn';
 import './ContactMe.css';
 
 const ContactMe = () => {
@@ -20,7 +21,8 @@ const ContactMe = () => {
                             <input className='form-control' placeholder='example@mail.com' type="email" />
                             <input className='form-control' placeholder='Budget' type="number" />
                             <textarea className='form-control' rows="5" placeholder='Project Desicription' type="text" />
-                            <Button variant='danger' className='d-block ms-auto mr-2'>Sent</Button>
+                            
+                            <PrimaryBtn>Submit</PrimaryBtn>
                         </form>
                     </div>
                 </div>

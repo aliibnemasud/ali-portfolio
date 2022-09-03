@@ -1,6 +1,7 @@
 .banner {
     background: url(../../img/banner-bg.png);
-    background-size: cover;        
+    background-size: cover;
+           
 }
 
 .social-icon {
@@ -11,6 +12,17 @@
 .social-icon li {
     text-decoration: none;
     list-style: none;
+    
+}
+
+.social-icon li i {
+    color: black;
+    font-size: 20px;
+    margin: 0 8px;    
+}
+
+.social-icon li i:hover {
+    color: #dc3545;
 }
 
 .hline {    

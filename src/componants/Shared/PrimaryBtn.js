@@ -1,20 +1,19 @@
 import React from 'react';
 
-const PrimaryBtn = ({children}) => {
-
+const PrimaryBtn = ({children}) => { 
+       
     const buttonStyle = {
         background: "black",
         padding: "10px 20px",
         color: "white",
-        border: "none",
-        width: "10%",
+        border: "none",        
         display: "block",
         margin:"0 auto",
     }
 
     return (
         <div>            
-            <button style={buttonStyle} className='hireme'>{children}</button>
+            <button style={buttonStyle} >{children}</button>
         </div >
     );
 };

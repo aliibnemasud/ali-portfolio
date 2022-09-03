@@ -21,7 +21,7 @@ const Testimonial = () => {
 
             <div className='container'>
                 <h1 className='text-center my-3'>Testimonial</h1>
-                <p className='text-center mb-5 fs-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem commodi, et incidunt mollitia harum eius quia blanditiis! Esse, unde vero!</p>
+                <p className='text-center mb-5 fs-5'>Know about myself from here from my previous clients</p>
 
                 <Swiper className=''
                     // install Swiper modules
@@ -39,10 +39,10 @@ const Testimonial = () => {
                             <div className=''>
                                 <div className='bg-light'>
                                     <div className='p-4'>
-                                        <img src={qota} className="d-block ms-auto" width="100px" alt="" />
-                                        <p className='fs-4'>I have worked with Ali Ibne Masud before and I will in the future. Excellent work and communication. You won't be disappointed!</p>
+                                        <img src={qota} className="d-block ms-auto" width="80px" alt="" />
+                                        <p className=''>I have worked with Ali Ibne Masud before and I will in the future. Excellent work and communication. You won't be disappointed!</p>
                                         <div className='d-flex justify-content-around align-itmes-center'>
-                                            <img src={firstone} width="90px" alt="" />
+                                            <img className="rounded-circle" src={firstone} width="90px" alt="" />
                                             <div className='pt-3'>
                                                 <h4 className='m-0'>Revga Wright</h4>
                                                 <p className='m-0'>United States</p>
@@ -56,12 +56,12 @@ const Testimonial = () => {
                             <div className=''>
                                 <div className='bg-light'>
                                     <div className='p-4'>
-                                        <img src={qota} className="d-block ms-auto" width="100px" alt="" />
-                                        <p className='fs-4'>I have worked with Ali Ibne Masud before and I will in the future. Excellent work and communication. You won't be disappointed!</p>
+                                        <img src={qota} className="d-block ms-auto" width="80px" alt="" />
+                                        <p className=''>I have worked with Ali Ibne Masud before and I will in the future. Excellent work and communication. You won't be disappointed!</p>
                                         <div className='d-flex justify-content-around align-itmes-center'>
-                                            <img src={firstone} width="90px" alt="" />
+                                            <img src={secondImage} className="rounded-circle" width="90px" alt="" />
                                             <div className='pt-3'>
-                                                <h4 className='m-0'>Revga Wright</h4>
+                                                <h4 className='m-0'>Chudyi Lozue</h4>
                                                 <p className='m-0'>United States</p>
                                             </div>
                                         </div>
@@ -72,14 +72,14 @@ const Testimonial = () => {
                         <SwiperSlide>
                             <div className=''>
                                 <div className='bg-light'>
-                                    <div className='p-4'>
-                                        <img src={qota} className="d-block ms-auto" width="100px" alt="" />
-                                        <p className='fs-4'>I have worked with Ali Ibne Masud before and I will in the future. Excellent work and communication. You won't be disappointed!</p>
+                                    <div className='p-4'>                                        
+                                        <img src={qota} className="d-block ms-auto " width="80px" alt="" />
+                                        <p className=''>Great to work with them again! Always fast and skilled!</p>
                                         <div className='d-flex justify-content-around align-itmes-center'>
-                                            <img src={firstone} width="90px" alt="" />
+                                            <img src={thirdImage} className="rounded-circle" width="90px" alt="" />
                                             <div className='pt-3'>
                                                 <h4 className='m-0'>Revga Wright</h4>
-                                                <p className='m-0'>United States</p>
+                                                <p className='m-0'>United Kindom</p>
                                             </div>
                                         </div>
                                     </div>
@@ -90,10 +90,10 @@ const Testimonial = () => {
                             <div className=''>
                                 <div className='bg-light'>
                                     <div className='p-4'>
-                                        <img src={qota} className="d-block ms-auto" width="100px" alt="" />
-                                        <p className='fs-4'>I have worked with Ali Ibne Masud before and I will in the future. Excellent work and communication. You won't be disappointed!</p>
+                                        <img src={qota} className="d-block ms-auto" width="80px" alt="" />
+                                        <p className=''>Ali Ibne Masud was responsive to our questions and requests. The seller was more correct than we were with deadlines, thus very patient. The seller produced a high quality product and revised based on client needs. I strongly recommend this seller.</p>
                                         <div className='d-flex justify-content-around align-itmes-center'>
-                                            <img src={firstone} width="90px" alt="" />
+                                            <img className="rounded-circle" src={firstone} width="90px" alt="" />
                                             <div className='pt-3'>
                                                 <h4 className='m-0'>Revga Wright</h4>
                                                 <p className='m-0'>United States</p>

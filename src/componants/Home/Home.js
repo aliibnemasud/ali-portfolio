@@ -1,7 +1,6 @@
 import React from 'react';
 import CopyRight from '../Footer/CopyRight';
 import Footer from '../Footer/Footer';
-import Header from '../Shared/Header';
 import Skills from '../Skills/Skills';
 
 import AboutMe from './AboutMe/AboutMe';

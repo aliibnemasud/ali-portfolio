@@ -26,7 +26,7 @@ const ContactMe = () => {
     const sendEmail = e => {
         e.preventDefault();
 
-        emailjs.sendForm('service_ptszn0j','template_e2gn335', form.current, '3FFT1Ttqnwo8G1HAx')
+        emailjs.sendForm(process.env.REACT_APP_YOUR_SERVICE_ID , process.env.REACT_APP_YOUR_TEMPLATE_ID , form.current, '3FFT1Ttqnwo8G1HAx')
             .then((result) => {
                 console.log(result.text);
                 toast.success("Message Send Successfully!")

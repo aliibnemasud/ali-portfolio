@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button } from 'react-bootstrap';
+import { Button, Nav, Tab, Tabs } from 'react-bootstrap';
 import ecparts from '../../img/projectsimg/ecparts.png';
 import cyclewarehouse from '../../img/projectsimg/cyclewarehouse.png';
 import mindtrainor from '../../img/projectsimg/mindtrainor.png';
@@ -16,30 +16,63 @@ const Portfolio = () => {
                 <h1 className='text-center my-3'>Recent Projects</h1>
                 <p className='text-center mb-5'>I have my recent project with React also by using other technologies. You can check by clicking live preview.</p>
 
+                {/* Normal tabs are working .....................................*/}
 
-                <div className="tab-section">
-                    <nav className='nav nav-tabs'>
-                        <li className='nav-item'> <a href="#React" data-toggle="tab" className="nav-link active" data>React</a> </li>
-                        <li className='nav-item'> <a href="#Javascript" data-toggle="tab" className="nav-link">Next js</a> </li>
-                        <li className='nav-item'> <a href="#NextJs" data-toggle="tab" className="nav-link">Next Js</a> </li>
-                    </nav>
+                {/* <Tabs defaultActiveKey="bootstrap" className="mb-3" fill>
+                    <Tab eventKey="all" title="All Projects">
+                        <h1>All Projects</h1>
+                    </Tab>
 
-                    <div className='tab-content'>
+                    <Tab eventKey="react" title="React">
+                        <h1>React Projects</h1>
+                    </Tab>
 
-                        <div id="React" className='tab-pane'>
-                            <h1>Hello From React</h1>
-                        </div>
-                        <div id="Javascript" className='tab-pane'>
-                            <h1>Hello From Javascript</h1>
-                        </div>
-                        <div id="NextJs" className='tab-pane'>
-                            <h1>Hello From Next JS</h1>
-                        </div>
+                    <Tab eventKey="bootstrap" title="Bootstrap" >
+                        <h1>Bootstrap Projects</h1>
+                    </Tab>
 
-                    </div>
+                    <Tab eventKey="nextJs" title="Next Js" >
+                        <h1>Next Js Projects</h1>
+                    </Tab>
+                </Tabs> */}
+
+                {/* Normal tabs are working .....................................*/}
+
+                {/* starting pills tab work ...................................... */}
+
+                <Tab.Container>
+                    <Nav variant='pills' className="mb-3" justify>
+                        <Nav.Item>
+                            <Nav.Link eventKey="first">First Tab</Nav.Link>
+                        </Nav.Item>
+                        <Nav.Item>
+                            <Nav.Link eventKey="second">Second Tab</Nav.Link>
+                        </Nav.Item>
+                        <Nav.Item>
+                            <Nav.Link eventKey="nextjs">Next Js</Nav.Link>
+                        </Nav.Item>
+                        <Nav.Item>
+                            <Nav.Link eventKey="Typescript">Typescript</Nav.Link>
+                        </Nav.Item>
+                    </Nav>
+
+                    <Tab.Content>
+
+                        <Tab.Pane eventKey="first">
+                            <h1>All Projects Here</h1>
+                        </Tab.Pane>
+
+                        <Tab.Pane eventKey="second">
+                            <h1>React Projects Here</h1>
+                        </Tab.Pane>
+                        
+                    </Tab.Content>
+
+                </Tab.Container>
 
 
-                </div>
+
+
 
 
                 <div className='row'>

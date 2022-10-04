@@ -16,6 +16,32 @@ const Portfolio = () => {
                 <h1 className='text-center my-3'>Recent Projects</h1>
                 <p className='text-center mb-5'>I have my recent project with React also by using other technologies. You can check by clicking live preview.</p>
 
+
+                <div className="tab-section">
+                    <nav className='nav nav-tabs'>
+                        <li className='nav-item'> <a href="#React" data-toggle="tab" className="nav-link active" data>React</a> </li>
+                        <li className='nav-item'> <a href="#Javascript" data-toggle="tab" className="nav-link">Next js</a> </li>
+                        <li className='nav-item'> <a href="#NextJs" data-toggle="tab" className="nav-link">Next Js</a> </li>
+                    </nav>
+
+                    <div className='tab-content'>
+
+                        <div id="React" className='tab-pane'>
+                            <h1>Hello From React</h1>
+                        </div>
+                        <div id="Javascript" className='tab-pane'>
+                            <h1>Hello From Javascript</h1>
+                        </div>
+                        <div id="NextJs" className='tab-pane'>
+                            <h1>Hello From Next JS</h1>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
                 <div className='row'>
 
                     <div className='project-card col-lg-4 col-md-6 col-12 my-3'>

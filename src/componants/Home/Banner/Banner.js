@@ -5,8 +5,7 @@ import Header from '../../Shared/Header';
 import Downloadcv from '../../Shared/Downloadcv';
 
 
-const Banner = () => {
-   
+const Banner = () => {  
 
     return (
         <div id='home' >
@@ -20,7 +19,7 @@ const Banner = () => {
                             <h5 className='my-3'>Hello</h5>
                         </div>
                         <h1 className='text-uppercase fw-bold'>I am <span className='text-danger'>Ali</span> Ibne Masud</h1>
-                        <p className='my-4'>This is Ali Ibne Masud a <span className='fw-bold'>JR. Mern Stack Developer</span> and UI/UX Designer located in Bangladesh. Looking for working aroud the world.</p>
+                        <p className='my-4'>This is Ali Ibne Masud a <span className='fw-bold'>MERN Stack Developer</span> and <span className='fw-bold'>UI/UX Designer</span> located in Bangladesh. Looking for working around the world.</p>
                         
                        <Downloadcv/>
 
@@ -41,9 +40,6 @@ const Banner = () => {
                         <img src={ali2} className="img-fluid text-center" alt="" />
                     </div>
                 </div>
-
-
-
             </section>
         </div>
     );

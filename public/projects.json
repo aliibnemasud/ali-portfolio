@@ -1,0 +1,93 @@
+[
+    {
+        "_id": 1,
+        "thumbnail": "https://i.ibb.co/WkThKq2/online-Bankofbd.png",
+        "name": "Online Bank of BD",
+        "bio": "It is banking website (Team Project)",
+        "stack": "full stack",
+        "usedLib": "React",
+        "techNologies": ["React", "MongoDb", "Node Js", "Firebase", "Express Js", "etc"],
+        "liveLink": "https://github.com/moazzemhossainnahid/online-bank-of-bd-client",
+        "clientCode": "https://github.com/moazzemhossainnahid/online-bank-of-bd-client",
+        "serverCode": "https://github.com/moazzemhossainnahid/online-bank-of-bd-server"
+    },
+    {
+        "_id": 2,
+        "thumbnail": "https://i.ibb.co/TtSSr5P/ecparts.png",
+        "name": "EcParts",
+        "bio": "It is parts Manufacturer Website",
+        "stack": "full stack",
+        "usedLib": "React",
+        "techNologies": ["React", "MongoDb", "Node Js", "Firebase", "Express Js", "etc"],
+        "liveLink": "https://ecparts-8e59b.web.app",
+        "clientCode": "https://github.com/aliibnemasud/ec-parts-client-side",
+        "serverCode": "https://github.com/aliibnemasud/ec-parts-client-server"
+    },
+    {
+        "_id": 3,
+        "thumbnail": "https://i.ibb.co/wcm2cZg/cyclewarehouse.png",
+        "name": "Cycle Warehouse",
+        "bio": "It is am Ware house website.",
+        "stack": "full stack",
+        "usedLib": "React",
+        "techNologies": ["React", "MongoDb", "Node Js", "Firebase", "Express Js", "etc"],
+        "liveLink": "https://warehouse-management-web-d5f96.web.app",
+        "clientCode": "https://github.com/aliibnemasud/cycle-warehouse-client-side",
+        "serverCode": "https://github.com/aliibnemasud/cycle-warehouse-server-side"
+    },
+    {
+        "_id": 4,
+        "thumbnail": "https://i.ibb.co/NFpkF8R/mindtrainor.png",
+        "name": "Mind Trainer",
+        "bio": "Personal Service Provider website.",
+        "stack": "",
+        "usedLib": "React",
+        "techNologies": ["React", "Firebase", "etc"],
+        "liveLink": "https://independent-service-prov-2bff1.web.app/",
+        "clientCode": "https://github.com/aliibnemasud/mind-trainer-A10-",
+        "serverCode": ""
+    },
+    {
+        "_id": 5,
+        "thumbnail": "https://i.ibb.co/sJjs6xc/omnifood.png",
+        "name": "OmniFood",
+        "bio": "Restaurant website",
+        "stack": "html & css",
+        "usedLib": "html & css",
+        "techNologies": [],
+        "liveLink": "https://aliibnemasud.github.io/OMNIFOOD_BOOTSTRAP",
+        "clientCode": "https://github.com/aliibnemasud/OMNIFOOD_BOOTSTRAP",
+        "serverCode": ""
+    },       
+    {
+        "_id": 6,
+        "thumbnail": "https://i.ibb.co/cww0J69/sstech.png",
+        "name": "SsTech",
+        "bio": "Creative Agency Website",
+        "stack": "full stack",
+        "usedLib": "html & css",
+        "techNologies": ["React", "MongoDb", "Node Js", "Firebase", "Express Js", "etc"],
+        "liveLink": "https://aliibnemasud.github.io/SSTECH-HTML-CSS-",
+        "clientCode": "https://github.com/aliibnemasud/SSTECH-HTML-CSS-",
+        "serverCode": ""
+    },       
+    {
+        "_id": 7,
+        "thumbnail": "https://i.ibb.co/g7f9SZr/dotask.png",
+        "name": "Do Task",
+        "bio": "Task Management Website",
+        "stack": "full stack",
+        "usedLib": "React",
+        "techNologies": ["React", "MongoDb", "Node Js", "Firebase", "Express Js", "etc"],
+        "liveLink": "https://aliibnemasud.github.io/OMNIFOOD_BOOTSTRAP",
+        "clientCode": "https://github.com/aliibnemasud/OMNIFOOD_BOOTSTRAP",
+        "serverCode": ""
+    }
+]
+
+
+
+
+
+
+

@@ -1,17 +1,12 @@
-import React from 'react';
-import { Button, Nav, Tab } from 'react-bootstrap';
-import './Portfolio.css';
-import { useState } from 'react';
-import { useEffect } from 'react';
 import axios from 'axios';
-import SingleProject from './SingleProject';
-import { useNavigate } from 'react-router-dom';
+import React, { useEffect, useState } from 'react';
+import { Nav, Tab } from 'react-bootstrap';
+import SingleProject from '../Home/Portfolio/SingleProject';
 
-const Portfolio = () => {
+const Projects = () => {
     const [projects, setProjects] = useState([]);
     const reactProjectsFilter = projects.filter(project => project.usedLib === "React");
     const htmlCssFilter = projects.filter(project => project.usedLib === "html & css");
-    const navigate = useNavigate();
 
     useEffect(() => {
         axios.get("projects.json")
@@ -19,36 +14,10 @@ const Portfolio = () => {
     }, [])
 
     return (
-        <section id='projects' className='my-5 py-5'>
-            <div className='container'>
-                <h1 className='text-center my-3'>Recent Projects</h1>
-                <p className='text-center mb-5'>I have my recent project with React also by using other technologies. You can check by clicking live preview.</p>
+        <div className='container'>
+            <h1 className='my-5 text-center'>All Projects | Ali Ibne Masud</h1>
 
-                {/* Normal tabs are working .....................................*/}
-
-                {/* <Tabs defaultActiveKey="bootstrap" className="mb-3" fill>
-                    <Tab eventKey="all" title="All Projects">
-                        <h1>All Projects</h1>
-                    </Tab>
-
-                    <Tab eventKey="react" title="React">
-                        <h1>React Projects</h1>
-                    </Tab>
-
-                    <Tab eventKey="bootstrap" title="Bootstrap" >
-                        <h1>Bootstrap Projects</h1>
-                    </Tab>
-
-                    <Tab eventKey="nextJs" title="Next Js" >
-                        <h1>Next Js Projects</h1>
-                    </Tab>
-                </Tabs> */}
-
-                {/* Normal tabs are working .....................................*/}
-
-                {/* starting pills tab work ...................................... */}
-
-                <Tab.Container defaultActiveKey="allProjects">
+            <Tab.Container defaultActiveKey="allProjects">
                     <Nav variant='pills' className="mb-3" fill>
                         <Nav.Item>
                             <Nav.Link eventKey="allProjects">All Projects</Nav.Link>
@@ -108,22 +77,8 @@ const Portfolio = () => {
                     </Tab.Content>
 
                 </Tab.Container>
-
-                {/*  <div className='row'>
-                    {
-                        projects && projects.map(project => <SingleProject key={project?._id} project={project} />)
-                    }
-                </div> */}
-
-            </div>
-            <div className='text-center my-5'>
-                <Button onClick={() => navigate("/projects")} >See All Projects</Button>
-            </div>
-
-
-
-        </section>
+        </div>
     );
 };
 
-export default Portfolio;
+export default Projects;

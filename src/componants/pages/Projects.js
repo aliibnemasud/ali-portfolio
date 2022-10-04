@@ -2,6 +2,7 @@ import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import { Nav, Tab } from 'react-bootstrap';
 import SingleProject from '../Home/Portfolio/SingleProject';
+import Header from '../Shared/Header';
 
 const Projects = () => {
     const [projects, setProjects] = useState([]);
@@ -15,6 +16,7 @@ const Projects = () => {
 
     return (
         <div className='container'>
+        
             <h1 className='my-5 text-center'>All Projects | Ali Ibne Masud</h1>
 
             <Tab.Container defaultActiveKey="allProjects">

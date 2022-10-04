@@ -19,19 +19,19 @@ const Banner = () => {
                             <h5 className='my-3'>Hello</h5>
                         </div>
                         <h1 className='text-uppercase fw-bold'>I am <span className='text-danger'>Ali</span> Ibne Masud</h1>
-                        <p className='my-4'>This is Ali Ibne Masud a <span className='fw-bold'>MERN Stack Developer</span> and <span className='fw-bold'>UI/UX Designer</span> located in Bangladesh. Looking for working around the world.</p>
+                        <p className='my-4'>This is Ali Ibne Masud a <span className='fw-bold'>Full Stack Developer ( MERN )</span> and <span className='fw-bold'>UI/UX Designer</span> located in Bangladesh. Looking for working around the world.</p>
                         
                        <Downloadcv/>
 
                         <ul className='social-icon d-flex justify-content-between position-absolute bottom-0 start-0'>
                             <li>
-                                <a href="https://github.com/aliibnemasud" target="_blank"><i class="fa-brands fa-github"></i></a>
+                                <a href="https://github.com/aliibnemasud" target="_blank"><i className="fa-brands fa-github"></i></a>
                             </li>
                             <li>
-                                <a href="https://www.behance.net/mdmasudrony" target="_blank"><i class="fa-brands fa-behance"></i></a>
+                                <a href="https://www.behance.net/mdmasudrony" target="_blank"><i className="fa-brands fa-behance"></i></a>
                             </li>
                             <li>
-                                <a href="https://www.linkedin.com/in/aliibnemasud/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                                <a href="https://www.linkedin.com/in/aliibnemasud/" target="_blank"><i className="fa-brands fa-linkedin"></i></a>
                             </li>
                         </ul>
                     </div>

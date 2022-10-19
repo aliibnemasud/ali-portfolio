@@ -11,6 +11,8 @@ const Portfolio = () => {
     const [projects, setProjects] = useState([]);
     const reactProjectsFilter = projects.filter(project => project.usedLib === "React");
     const htmlCssFilter = projects.filter(project => project.usedLib === "html & css");
+    const javascriptFilter = projects.filter(project => project.usedLib === "javascript");
+    const typescriptFilter = projects.filter(project => project.usedLib === "typescript");
     const navigate = useNavigate();
 
     useEffect(() => {
@@ -93,8 +95,11 @@ const Portfolio = () => {
                             </div>
                         </Tab.Pane>
 
-                        <Tab.Pane eventKey="typescript">
-                            <h1>Will Come soon...</h1>
+                        <Tab.Pane eventKey="typescript">                           
+                            {
+                                typescriptFilter && typescriptFilter.map(project => <SingleProject key={project?._id} project={project} />)
+                            }
+
                         </Tab.Pane>
                         <Tab.Pane eventKey="htmlCss">
 
@@ -104,6 +109,21 @@ const Portfolio = () => {
                                 }
                             </div>
                         </Tab.Pane>
+                        <Tab.Pane eventKey="javascript">
+                            <div className='row'>
+                                {
+                                    javascriptFilter && javascriptFilter.map(project => <SingleProject key={project?._id} project={project} />)
+                                }
+                            </div>
+                        </Tab.Pane>
+
+                        <Tab.Pane eventKey="uiUx">
+                            <h1 className='text-center'>Check My Behance Profile To see Projects</h1>
+                            <a target="_blank" className='text-center d-block' href="https://www.behance.net/mdmasudrony">Behance Profile Link</a>
+                        </Tab.Pane>
+
+
+
 
                     </Tab.Content>
 

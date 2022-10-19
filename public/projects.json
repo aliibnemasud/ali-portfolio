@@ -82,6 +82,56 @@
         "liveLink": "https://aliibnemasud.github.io/OMNIFOOD_BOOTSTRAP",
         "clientCode": "https://github.com/aliibnemasud/OMNIFOOD_BOOTSTRAP",
         "serverCode": ""
+    },
+    {
+        "_id": 8,
+        "thumbnail": "https://i.ibb.co/nmkXWt6/leaderboard.png",
+        "name": "Leader Dashboard",
+        "bio": "Leader Dashboard",
+        "stack": "full stack",
+        "usedLib": "html & css",
+        "techNologies": ["HTML", "CSS","etc"],
+        "liveLink": "https://aliibnemasud.github.io/leaderboard/",
+        "clientCode": "https://github.com/aliibnemasud/leaderboard",
+        "serverCode": ""
+    }
+    ,
+    {
+        "_id": 9,
+        "thumbnail": "https://i.ibb.co/dPwcfc2/calculate-Total.png",
+        "name": "Calculate Expenses",
+        "bio": "Leader Dashboard",
+        "stack": "Frontend",
+        "usedLib": "javascript",
+        "techNologies": ["HTML","CSS","Javascript","etc"],
+        "liveLink": "https://incometoexpense.netlify.app/",
+        "clientCode": "https://github.com/aliibnemasud/income-to-expence",
+        "serverCode": ""
+    },
+    {
+        "_id": 10,
+        "thumbnail": "https://i.ibb.co/vzLYYJk/Visualization-dashboard.png",
+        "name": "Visualization Dashboard",
+        "bio": "Loading Data",
+        "stack": "Full Stack",
+        "usedLib": "React",
+        "techNologies": ["HTML","CSS","Javascript","etc"],
+        "liveLink": "https://visualization-dashboard-think-evolve.netlify.app/",
+        "clientCode": "https://github.com/aliibnemasud/visualization-dashboard",
+        "serverCode": ""
+    }
+    ,
+    {
+        "_id": 11,
+        "thumbnail": "https://i.ibb.co/c3KhK6j/client-Management-Dashboard.png",
+        "name": "Client Management Dashboard",
+        "bio": "It is a client management dashboard",
+        "stack": "Full Stack",
+        "usedLib": "typescript",
+        "techNologies": ["HTML","CSS","Typescript","etc"],
+        "liveLink": "https://client-management-dashboard.web.app",
+        "clientCode": "https://github.com/aliibnemasud/client-management-dashboard",
+        "serverCode": ""
     }
 ]
 

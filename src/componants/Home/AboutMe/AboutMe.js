@@ -10,7 +10,7 @@ const AboutMe = () => {
             <img className='img-fluid col-lg-5' src={Aboutme} alt="" />
             <div className='col-lg-6'>
                 <h1>About Me</h1>
-                <p className='my-4'>Hello, I am a Junior React Developer with a list of skills in HTML, CSS, Bootstrap, Tailwind, JavaScript, ES6, React, React Router, Firebase, Express Js, Node, MongoDB, JWT, Heroku, Git, Netlify, etc.
+                <p className='my-4'>Hello, I am a Full Stack Web Developer with a list of skills in HTML, CSS, Bootstrap, Tailwind, JavaScript, ES6, React, Redux, Next Js, Firebase, Express Js, Node Js, MongoDB, JWT, Heroku, Git, Netlify, Docker, AWS, Google Api, Problem Solving, etc.
                 </p>
 
                 <p className='mb-5'>I enjoy being challenged and engaging with projects that require me to work outside my comfort and knowledge set, as continuing to learn new things and development techniques are important to me and the success of my work field. Also, I have professional experience as a freelancer on Upwork and Fiverr.

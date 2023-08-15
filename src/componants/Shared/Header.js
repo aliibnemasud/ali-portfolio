@@ -21,6 +21,10 @@ const Header = () => {
                             <Nav.Link className='text-uppercase text-dark mr-3' eventKey={2} href="#projects">Projects</Nav.Link>
                             <Nav.Link className='text-uppercase text-dark mr-3' eventKey={2} href="#testimonial">Testimonial</Nav.Link>
                             <Nav.Link className='text-uppercase text-dark mr-3' eventKey={2} href="#contact">Contact</Nav.Link>
+
+                            <Nav.Link className='mr-3 bg-dark text-white px-3 rounded' eventKey={2} href="https://calendly.com/aliibnemasud/30min">
+                                Schedule a meeting
+                            </Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

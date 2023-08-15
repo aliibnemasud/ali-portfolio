@@ -12,6 +12,7 @@ import ExpertiseArea from './ExpertiseArea/ExpertiseArea';
 import Portfolio from './Portfolio/Portfolio';
 import SayHello from './SayHello/SayHello';
 import Testimonial from './Testimonial/Testimonial';
+import NewReviews from './Testimonial/NewReviews';
 
 const Home = () => {
 
@@ -22,7 +23,8 @@ const Home = () => {
             <Skills></Skills>
             <ExpertiseArea></ExpertiseArea>
             <Portfolio></Portfolio>
-            <Testimonial></Testimonial>
+            {/* <Testimonial></Testimonial> */}
+            <NewReviews/>
             <SayHello></SayHello>
             <ContactMe></ContactMe>
             <Footer></Footer>

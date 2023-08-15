@@ -55,7 +55,7 @@ const NewReviews = () => {
       <div className="container">
         <h1 className="text-center my-3">Testimonial</h1>
         <p className="text-center mb-5 fs-5">
-          Know about myself from here from my previous clients
+        Gather insights about myself from the feedback provided by my past clients.
         </p>
         <Slider {...settings}>
           {review.map((review) => {

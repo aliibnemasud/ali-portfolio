@@ -1,6 +1,6 @@
 import React from "react";
 import Aboutme from "../../img/aboutme.png";
-import Downloadcv from "../../Shared/Downloadcv";
+import DownloadResume from "../../Shared/Downloadcv";
 import "./Anoutme.css";
 
 const AboutMe = () => {
@@ -59,7 +59,7 @@ const AboutMe = () => {
           <br /> Warm regards
         </p>
 
-        <Downloadcv />
+        <DownloadResume />
       </div>
     </div>
   );

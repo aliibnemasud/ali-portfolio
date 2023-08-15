@@ -2,7 +2,7 @@ import React from 'react';
 import './Banner.css';
 import ali2 from '../../img/ali2.png';
 import Header from '../../Shared/Header';
-import Downloadcv from '../../Shared/Downloadcv';
+import DownloadResume from '../../Shared/Downloadcv';
 
 
 const Banner = () => {  
@@ -21,17 +21,17 @@ const Banner = () => {
                         <h1 className='text-uppercase fw-bold'>I am <span className='text-danger'>Ali</span> Ibne Masud</h1>
                         <p className='my-4'>This is Ali Ibne Masud an experienced <span className='fw-bold'>full stack web developer</span> located in Bangladesh, with a successful track record of working remotely. My expertise in technologies such as React, Next.js, JavaScript, TypeScript, Node.js, and React Native.</p>
                         
-                       <Downloadcv/>
+                       <DownloadResume/>
 
                         <ul className='social-icon d-flex justify-content-between position-absolute bottom-0 start-0'>
                             <li>
-                                <a href="https://github.com/aliibnemasud" target="_blank"><i className="fa-brands fa-github"></i></a>
+                                <a href="https://github.com/aliibnemasud" target="_blank"  rel="noreferrer"><i className="fa-brands fa-github"></i></a>
                             </li>
                             <li>
-                                <a href="https://www.behance.net/mdmasudrony" target="_blank"><i className="fa-brands fa-behance"></i></a>
+                                <a href="https://www.behance.net/mdmasudrony" target="_blank" rel="noreferrer"><i className="fa-brands fa-behance"></i></a>
                             </li>
                             <li>
-                                <a href="https://www.linkedin.com/in/aliibnemasud/" target="_blank"><i className="fa-brands fa-linkedin"></i></a>
+                                <a href="https://www.linkedin.com/in/aliibnemasud/" target="_blank" rel="noreferrer"><i className="fa-brands fa-linkedin"></i></a>
                             </li>
                         </ul>
                     </div>

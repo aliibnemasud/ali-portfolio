@@ -1,7 +1,7 @@
 import React from 'react';
 import Resume from '../Files/Resume of Ali Ibne Masud.pdf';
 
-const Downloadcv = () => {
+const DownloadResume = () => {
 
         const buttonStyle = {
             background: "black",
@@ -10,12 +10,12 @@ const Downloadcv = () => {
             border: "none",
             display: "block",            
             textDecoration: "none",
-            width: "150px"
+            width: "190px"
         }
         
         return (
-            <a style={buttonStyle} className="mt-5" href={Resume} download >Download CV</a>
+            <a style={buttonStyle} className="mt-5" href={Resume} download >Download Resume</a>
         );
     };
 
-export default Downloadcv;
+export default DownloadResume;

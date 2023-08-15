@@ -1,9 +1,5 @@
 import React, { useEffect, useState } from "react";
 import Slider from "react-slick";
-
-import firstone from "../../img/clientimage/firstone.jpeg";
-import secondImage from "../../img/clientimage/third.jpg";
-import thirdImage from "../../img/clientimage/second.jpg";
 import Review from "./Review";
 import axios from "axios";
 
@@ -72,21 +68,6 @@ const NewReviews = () => {
               />
             );
           })}
-
-          {/* <Review
-            name="Revga Wright"
-            image={secondImage}
-            review="I have worked with Ali Ibne Masud before and I will in the future.
-            Excellent work and communication. You won't be disappointed!"
-            country="United States"
-          />
-          <Review
-            name="Revga Wright"
-            image={thirdImage}
-            review="I have worked with Ali Ibne Masud before and I will in the future.
-            Excellent work and communication. You won't be disappointed!"
-            country="United States"
-          /> */}
         </Slider>
       </div>
     </section>

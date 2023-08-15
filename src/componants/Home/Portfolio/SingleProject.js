@@ -13,8 +13,8 @@ const SingleProject = ({project}) => {
                 <p className=''>{project?.bio}</p>
                 <div className='d-flex justify-content-between'>
                     <Button variant='primary' href={project?.clientCode} target="_blank" >Client</Button>
-                    <a className='btn btn-danger' href={project?.serverCode} target="_blank" >Server</a>
-                    <a className='btn btn-success' href={project?.liveLink} target="_blank" >Live Site</a>
+                    <a className='btn btn-danger' href={project?.serverCode} target="_blank" rel="noreferrer" >Server</a>
+                    <a className='btn btn-success' href={project?.liveLink} target="_blank" rel="noreferrer" >Live Site</a>
                 </div>
             </div>
         </div>

@@ -7,7 +7,7 @@
         "stack": "full stack",
         "usedLib": "React",
         "techNologies": ["React", "MongoDb", "Node Js", "Firebase", "Express Js", "etc"],
-        "liveLink": "https://github.com/moazzemhossainnahid/online-bank-of-bd-client",
+        "liveLink": "https://online-money-bd.netlify.app",
         "clientCode": "https://github.com/moazzemhossainnahid/online-bank-of-bd-client",
         "serverCode": "https://github.com/moazzemhossainnahid/online-bank-of-bd-server"
     },
@@ -131,6 +131,32 @@
         "techNologies": ["HTML","CSS","Typescript","etc"],
         "liveLink": "https://client-management-dashboard.web.app",
         "clientCode": "https://github.com/aliibnemasud/client-management-dashboard",
+        "serverCode": ""
+    }
+    ,
+    {
+        "_id": 12,
+        "thumbnail": "https://res.cloudinary.com/ducgkop9p/image/upload/v1692104792/Portfolio/globe_bn7ylt.png",
+        "name": "Javascript Developer",
+        "bio": "visualization Dashboard",
+        "stack": "Frontend",
+        "usedLib": "javascript",
+        "techNologies": ["HTML","CSS","Javascript","etc"],
+        "liveLink": "https://humanrightsmechanisms.netlify.app",
+        "clientCode": "https://github.com/aliibnemasud/3dmap",
+        "serverCode": ""
+    }
+    ,
+    {
+        "_id": 13,
+        "thumbnail": "https://res.cloudinary.com/ducgkop9p/image/upload/v1692104815/Portfolio/swaed_glwwoc.png",
+        "name": "Swayed.io",
+        "bio": "Our Mission to Elevate Your Research Experience in swayed.",
+        "stack": "Full Stack",
+        "usedLib": "nextJs",
+        "techNologies": ["HTML","CSS","Javascript","nextjs", "Stripe","etc"],
+        "liveLink": "https://www.swayed.io",
+        "clientCode": "",
         "serverCode": ""
     }
 ]

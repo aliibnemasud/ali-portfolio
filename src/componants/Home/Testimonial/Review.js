@@ -2,7 +2,7 @@ import React from "react";
 import qota from "../../img/quote.png";
 
 const Review = ({image, name, country, review}) => {
-    console.log(image)
+    
   return (
     <div className="bg-light mx-2">
       <div className="p-4">

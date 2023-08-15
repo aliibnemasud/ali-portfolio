@@ -11,7 +11,6 @@ const Header = () => {
             <Navbar collapseOnSelect expand="lg" className='py-4' bg="" variant="light">
                 <Container>
                     <Navbar.Brand href="#home"> <img src={logo} alt="" /> </Navbar.Brand>
-
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">                        
                         <Nav className='ms-auto'>

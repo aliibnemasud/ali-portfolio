@@ -19,7 +19,7 @@ const Banner = () => {
                             <h5 className='my-3'>Hello</h5>
                         </div>
                         <h1 className='text-uppercase fw-bold'>I am <span className='text-danger'>Ali</span> Ibne Masud</h1>
-                        <p className='my-4'>This is Ali Ibne Masud a <span className='fw-bold'>Full Stack Developer ( MERN )</span> and <span className='fw-bold'>UI/UX Designer</span> located in Bangladesh. Looking for working around the world.</p>
+                        <p className='my-4'>This is Ali Ibne Masud an experienced <span className='fw-bold'>full stack web developer</span> located in Bangladesh, with a successful track record of working remotely. My expertise in technologies such as React, Next.js, JavaScript, TypeScript, Node.js, and React Native.</p>
                         
                        <Downloadcv/>
 

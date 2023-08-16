@@ -1,3 +1,3 @@
 # `ALi Ibne Masud` Personal Portfloio Website
 
-Live Site [Link](https://ali-portfolio-7fac5.web.app).
+Live Site [Link](http://aliibne.com).

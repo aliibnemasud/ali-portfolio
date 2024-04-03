@@ -11,6 +11,12 @@ import Html from '../img/skills/html5.png';
 import Tailwind from '../img/skills/tailwind.png';
 import Express from '../img/skills/express.png';
 import vscode from '../img/skills/Vscode.png';
+import aws from '../img/skills/aws.png';
+import nextjs from '../img/skills/nextjs.png';
+import mysql from '../img/skills/mysql.png';
+import auth0 from '../img/skills/auth0.png';
+import typescript from '../img/skills/typescript.png';
+import docker from '../img/skills/docker.png';
 
 const Skills = () => {
     return (
@@ -33,6 +39,12 @@ const Skills = () => {
                     <img src={Express} width="40px" height="40px" alt="" />
                     <img src={vscode} width="40px" height="40px" alt="" />
                     <img src={Mongodb} height="40px" alt="" />
+                    <img src={aws} width="40px" height="40px" alt="" />
+                    <img src={mysql} width="40px" height="40px" alt="" />
+                    <img src={nextjs} width="40px" height="40px" alt="" />
+                    <img src={typescript} width="40px" height="40px" alt="" />
+                    <img src={auth0} width="40px" height="40px" alt="" />
+                    <img src={docker} width="40px" height="40px" alt="" />
                 </div>
             </div>
         </div>
